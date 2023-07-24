@@ -1,3 +1,9 @@
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+  }
+
+
 header{
     display: flex;
     width: 100%;
@@ -67,22 +73,18 @@ header{
     text-decoration: none;
 }
 
-.navbar-botao2{
-    display: flex;
-    padding: 10px 18px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    border-radius: 8px;
-    border: 1px solid #8E2424;
-    background: #8E2424;
-    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
-}
-.navbar-botao_texto2{
-    color: var(--base-white, #FFF);
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
+button {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
     font-weight: 500;
-    line-height: 24px;
-}
+    background: none;
+    color: var(--text-color);
+    font-size: 0.9rem;
+  }
+  
+  button#signUp {
+    background-color: #8E2424;
+    color: #FFF;
+  }

@@ -1,0 +1,39 @@
+.cabecalho{
+    display: flex;
+    height: 407px;
+    padding: 96px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.cabecalho-text1{
+    color: #8E2424;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.cabecalho-titulo{
+    color: var(--gray-900, #101828);
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.96px;
+}
+
+.cabecalho-text2{
+    width: 791px;
+    color: var(--gray-500, #667085);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
